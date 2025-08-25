@@ -48,6 +48,14 @@ namespace Assignment_1_Advanced
             //    Console.WriteLine(item);
             //}
             #endregion
+            #region Q4
+            //FixedSizeList<int> fixedSizeList = new FixedSizeList<int>(5);
+            //fixedSizeList.Add(1);
+            //fixedSizeList.Add(2);
+            //fixedSizeList.Add(3);
+            //fixedSizeList.Add(4);
+            //Console.WriteLine(fixedSizeList.Get(2));
+            #endregion
         }
         }
 }
