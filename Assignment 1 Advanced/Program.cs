@@ -1,7 +1,18 @@
-﻿namespace Assignment_1_Advanced
+﻿using System.Collections;
+
+namespace Assignment_1_Advanced
 {
     internal class Program
     {
+        #region Q2
+        //public static void ReversedArrayList(ArrayList? arrayList)
+        //{
+        //    for (int i = (arrayList?.Count - 1) ?? 0; i >= 0; i--)
+        //    {
+        //        Console.WriteLine((int?)arrayList?[i] ?? 0);
+        //    }
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -10,7 +21,11 @@
             //Console.WriteLine(isAvailable);
             //int rangeNumbers = range.Length();
             //Console.WriteLine(rangeNumbers);
-            #endregion    
+            #endregion
+            #region Q2
+            //ArrayList arrayList = new ArrayList() { 1,2,3,4,5};
+            //ReversedArrayList(arrayList);
+            #endregion
         }
         }
 }
