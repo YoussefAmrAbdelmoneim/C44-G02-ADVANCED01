@@ -27,6 +27,26 @@ namespace Assignment_1_Advanced
         //    return evenList;
         //}
         #endregion
+        #region Q5
+        //public static int FirstNonRepeatedCharIndex(string word)
+        //{
+        //    Dictionary<char, int> dictionary = new Dictionary<char, int>();
+
+        //    foreach (char c in word)
+        //    {
+        //        if (dictionary.ContainsKey(c))
+        //            dictionary[c]++;
+        //        else
+        //            dictionary[c] = 1;
+        //    }
+        //    for (int i = 0; i < word.Length; i++)
+        //    {
+        //        if (dictionary[word[i]] == 1)
+        //            return i;
+        //    }
+        //    return -1;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -55,6 +75,10 @@ namespace Assignment_1_Advanced
             //fixedSizeList.Add(3);
             //fixedSizeList.Add(4);
             //Console.WriteLine(fixedSizeList.Get(2));
+            #endregion
+            #region Q5
+            //string word = "Youssef";
+            //Console.WriteLine(FirstNonRepeatedCharIndex(word));
             #endregion
         }
         }
